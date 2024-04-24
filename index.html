@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Escola DNC</title>
+</head>
+<body>
+    <!--Seção Banner-->
+    <section id="banner">
+        <img id="logo" src="src/imagens/logo.svg" alt="Logo DNC com cores branco e azul">
+        <h1>Dê os primeiros passos da <br> sua carreira em Tecnologia</h1>
+        <p>Inscreva-se no curso gratuito de Introdução à <br>
+            Tecnologia da DNC School e aprenda os principais <br>
+            fundamentos para construir experiências efetivas.</p>
+        
+    </section>
+
+    <!--Seção Informações importantes-->
+    <section id="infoImportante">
+        <div class="textoInformativo">
+            <img src="src/icones/certificado.svg" alt="">
+            <p>Cerificado de conclusão</p>
+        </div>
+        <div class="textoInformativo">
+            <img src="src/icones/relogio.svg" alt="">
+            <p>400 horas de conteúdo</p>
+        </div>
+        <div class="textoInformativo">
+            <img src="src/icones/camera.svg" alt="">
+            <p>Aulas online gravadas</p>
+        </div>
+    </section>
+    <!--Seção vídeo-->
+    <section id="videoInfo">
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/ITxGkd9h4n4?si=K-1uumzTkyL6wZ0u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <div>
+            <h2>Aprenda com especialistas e <br>
+                comece seu primeiro projeto</h2>
+            <p>Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                os principais métodos e ferramentas da área para resolver <br>
+                problemas complexos.</p>
+            <p>Conquiste seu certificado e desenvolva um projeto prático para <br>
+                aplicar seus conhecimentos.</p>
+        </div>
+    </section>
+
+    <!--Seção Carrossel-->
+    <section id="secaoCarrossel">
+        <h2>Mais de 500 alunos já iniciaram seus estudos</h2>
+        <div id="carrossel">
+            <img src="src/icones/setaL.svg" class="seta" alt="Mover para esquerda" id="setaL" onclick="RolarEsquerda()">
+            <div class="card" id="bruna">
+                <img src="src/imagens/alunos/bruna.svg" alt="Bruna: mulher branca, cabelo longo, ruiva, usando óculos de grau, usando uma camiseta rosa">
+                <p>“O curso da DNC School foi o ponto de <br>
+                    partida da minha transição de carreira. Hoje <br>
+                    já consegui minha primeira vaga na área!”<br>
+                <b>Bruna, desenvolvedora Front-End</b>
+                </p>
+            </div>
+            <div class="card" id="leonardo">
+                <img src="src/imagens/alunos/leonardo.svg" alt="Leonardo: Homem negro, jovem, cabelo preto, usando uma camisa social verde claro">
+                <p>“Gostei muito da metodologia e da <br>
+                    plataforma da Escola DNC. Os materiais <br>
+                    são todos muito bons”<br>
+                    <b>Leonardo, desenvolvedor Back-End</b>
+                </p>
+            </div>
+            <div class="card" id="samantha">
+                <img src="src/imagens/alunos/samantha.svg" alt="Samantha: Mulher negra com cabelos cacheado preto, usando bricos e camisa rosa, em sua cabeça seu cabelo está amarrado com uma tiara.">
+                <p>“O curso da foi a mudança que eu precisava<br>
+                    para alcançar meus objetivos profissionais”<br>
+                    <b>Samantha, desenvolvedora Front-End</b>
+                </p>
+            </div>
+            <img src="src/icones/setaR.svg" class="seta" alt="Mover para Direita" onclick="RolarDireita()" id="setaR">
+        </div>
+        
+    </section>
+
+    <!--Seção Formulário-->
+    <section id="secaoFormulario">
+        <h2>Comece agora mesmo e dê o próximo passo da sua carreira</h2>
+        <form action="https://api.sheetmonkey.io/form/v6CadZsWFz8CejbfNwGQfN" method="post">
+            <input type="text" name="Name" required placeholder="Nome"/>
+            <input type="email" name="Email" required placeholder="E-mail"/>
+            <input type="tel" name="Tel" required  placeholder="Telefone"/>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Acesse a ementa grátis</button>
+          </form>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
