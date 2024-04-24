@@ -15,7 +15,7 @@ Este projeto tem por base os conceitos iniciais sobre HTML, CSS, e JavaScript.
     - Layout Grid
     - FlexBox
     - Aplicando Hover
-    - Transição e scala de objetos.
+    - Transição e escala de objetos.
     - Criação de Cards
     - Efeitos de sombra com box-shadow
 - JS
